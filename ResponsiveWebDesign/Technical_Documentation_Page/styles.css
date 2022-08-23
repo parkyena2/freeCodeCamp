@@ -37,6 +37,7 @@ pre {
   min-width: 350px;
   position: fixed;
   height: 100%;
+  z-index: 10;
 }
 
 #navbar header {
