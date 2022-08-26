@@ -27,6 +27,7 @@ li {
 }
 
 .horizontal-width {
+  margin: auto;
   width: 600px;
   max-width: 100%;
 }
@@ -45,6 +46,7 @@ li {
   max-width: 100%;
   height: auto;
   display: block;
+  margin: auto;
 }
 
 #img-caption {
