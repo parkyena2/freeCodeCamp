@@ -1,3 +1,8 @@
+html, body {
+max-width: 100%;
+overflow-x: hidden;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -54,7 +59,7 @@ pre {
   padding: 0;
   margin: 0;
   float: left;
-  min-width: 350px;
+  width: 350px;
   height: 80%;
   overflow: auto;
   border: solid;
@@ -81,7 +86,7 @@ pre {
 }
 
 #main-doc {
-  padding: 0 5% 0 400px;
+  margin: 0 3% 0 400px;
   position: relative;
   max-width: 90%;
 }
@@ -120,6 +125,6 @@ pre {
 
   #main-doc {
     width: 100%;
-    padding: 5%;
+    margin: 5%;
   }
 }
